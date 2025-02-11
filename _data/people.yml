@@ -1,0 +1,13 @@
+instructors:
+  - name: Qianyi Huang
+    profile_pic: /_images/pp/huangqianyi.jpg
+    webpage: https://huangqy89.github.io
+
+teaching_assistants:
+  - name: Zeng Xuwang
+    profile_pic: /_images/pp/zengxuwang.png
+    # webpage: https://github.com/ourfor
+
+  - name: Dai Yongtao
+    profile_pic: /_images/pp/daiyongtao.png
+    # webpage: https://en.wikipedia.org/wiki/Hermione_Granger
