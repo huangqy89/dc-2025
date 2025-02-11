@@ -4,10 +4,15 @@ instructors:
     webpage: https://huangqy89.github.io
 
 teaching_assistants:
-  - name: Zeng Xuwang
+  - name: Jilong Du
     profile_pic: /_images/pp/zengxuwang.png
-    # webpage: https://github.com/ourfor
-
-  - name: Dai Yongtao
-    profile_pic: /_images/pp/daiyongtao.png
+    
+  - name: Zilin Ye
+    profile_pic: /_images/pp/zengxuwang.png
     # webpage: https://en.wikipedia.org/wiki/Hermione_Granger
+    
+  - name: Zhicheng Luo
+    profile_pic: /_images/pp/zengxuwang.png
+
+  - name: Jie Xiao
+    profile_pic: /_images/pp/zengxuwang.png

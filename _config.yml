@@ -1,13 +1,12 @@
 # Site settings
-course_name: Computer Networks
-course_description: "This course offers an in-depth exploration of computer networks, adopting a top-down approach to present the fundamental concepts and principles. Beginning with application-layer protocols, such as HTTP, FTP, and DNS, the course progressively delves into transport, network, and link-layer mechanisms, including TCP/IP, routing algorithms, and data link technologies. Through this approach, students will gain a holistic understanding of how the Internet functions, from high-level applications to low-level data transmission.<br /> <br /> 
+course_name: Digital Circuits & Logic Design
+course_description: "This undergraduate course introduces the fundamental principles of digital circuits and logic design, providing students with a strong foundation in the analysis and design of digital systems. Topics include Boolean algebra, combinational and sequential logic design, and the implementation of logic circuits using basic gates and flip-flops. <br /> <br />
 
-Topics covered include network architecture, packet-switching and circuit-switching,  congestion control, software-defined networks, and wireless networks. The course also emphasizes practical applications of networking concepts through hands-on lab work and problem-solving exercises.<br /> <br /> 
+Through hands-on labs, students will gain practical experience in designing, building, and testing digital circuits using breadboards, logic analyzers, and other tools. The course also explores real-world applications of digital logic in computing and embedded systems, preparing students for advanced studies and careers in electrical and computer engineering."
 
-By the end of the course, students will have a comprehensive understanding of both theoretical and practical aspects of modern computer networks, preparing them for advanced study or careers in network administration, cybersecurity, and cloud computing."
-course_semester: "Fall 2024"
+course_semester: "Spring 2025"
 
-baseurl: "/cn-2024" # the subpath of your site, e.g. /blog/
+baseurl: "/dc-2025" # the subpath of your site, e.g. /blog/
 url: "https://huangqy89.github.io/" # the base hostname & protocol for your site
 
 schoolname: "Sun Yat-sen University"
@@ -46,7 +45,7 @@ collections:
         output: true
     announcements:
         output: false
-    experiments:
+    laboratories:
         output: true
 
 
@@ -58,8 +57,8 @@ defaults:
       layout: "assignment"
   - scope:
       path: ""
-      type: "experiments"
+      type: "laboratory"
     values:
-      layout: "experiment"
+      layout: "laboratories"
 
-repository: huangqy89/cn-2024
+repository: huangqy89/dc-2025

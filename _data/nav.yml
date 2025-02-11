@@ -15,8 +15,8 @@ items:
   name: Assignments
   icon_class: fas fa-user-graduate
 
-- url: /experiments/
-  name: Experiments
+- url: /laboratories/
+  name: Laboratory
   icon_class: fas fa-coffee
 
 - url: /materials/
