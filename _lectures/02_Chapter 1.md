@@ -5,6 +5,6 @@ title: Chapter 1
 tldr: "Introductory Concepts."
 thumbnail: /static_files/lectures/digital.jpg
 links:
-    - url: /static_files/lectures/Ch01.ppt
+    - url: /static_files/lectures/ch01.ppt
       name: slide
 ---
