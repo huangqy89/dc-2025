@@ -3,8 +3,8 @@ type: lecture
 date: 2025-02-25
 title: Introduction
 tldr: "Introduction to this course."
-thumbnail: /static_files/presentations/intro.jpg
+thumbnail: /static_files/lectures/intro.jpg
 links:
-    - url: /static_files/presentations/Chapter0-Introduction.pptx
+    - url: /static_files/lectures/Ch0-Introduction.pptx
       name: slide
 ---
