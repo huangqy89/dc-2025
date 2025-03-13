@@ -7,6 +7,6 @@ thumbnail: /static_files/lectures/karnaugh.png
 links:
     - url: /static_files/lectures/ch04-part1.pptx
       name: slide1
-	- url: /static_files/lectures/ch04-part2.pptx
+    - url: /static_files/lectures/ch04-part2.pptx
       name: slide2
 ---
