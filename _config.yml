@@ -57,8 +57,8 @@ defaults:
       layout: "assignment"
   - scope:
       path: ""
-      type: "laboratory"
+      type: "laboratories"
     values:
-      layout: "laboratories"
+      layout: "laboratory"
 
 repository: huangqy89/dc-2025

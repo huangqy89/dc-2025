@@ -5,35 +5,35 @@ layout: page
 {{ content }}
 
 <ul id="archive">
-{% for experiment in site.experiments %}
+{% for laboratory in site.laboratories %}
 <li class="archiveposturl" style="background: transparent">
 <div class="lecture-container">
-    {% if experiment.thumbnail %}
+    {% if laboratory.thumbnail %}
     <div class="thumbnail">
-      <div class="center-cropped" style="margin-top:5px;margin-bottom:5px;background-image: url('{{ experiment.thumbnail | prepend: site.baseurl }}');">
-        <img src="{{ experiment.thumbnail | prepend: site.baseurl }}"/>
+      <div class="center-cropped" style="margin-top:5px;margin-bottom:5px;background-image: url('{{ laboratory.thumbnail | prepend: site.baseurl }}');">
+        <img src="{{ laboratory.thumbnail | prepend: site.baseurl }}"/>
       </div>
     </div>
     {% endif %}
     <div class="content">
-        <span style="font-weight: bold;">{{ experiment.title }}</span><br>
+        <span style="font-weight: bold;">{{ laboratory.title }}</span><br>
 
-        <strong>tl;dr:</strong> {{ experiment.tldr }}
+        <strong>tl;dr:</strong> {{ laboratory.tldr }}
         <br/>
         <strong>
-        {% include lecture_links.html lecture=experiment %}
+        {% include lecture_links.html lecture=laboratory %}
         </strong>
 
-        {% if experiment.score_file %}
+        {% if laboratory.score_file %}
         <strong>
-          [<a href="{{experiment.url | prepend: site.baseurl}}">score</a>]
+          [<a href="{{laboratory.url | prepend: site.baseurl}}">score</a>]
         </strong>
         {% endif %}
         
-        {% if experiment.content != '' %}
+        {% if laboratory.content != '' %}
         <br/>
         <div class="markdown-content" style="margin-top: 3px;">
-        {{ experiment.content }}
+        {{ laboratory.content }}
         </div>
         {% endif %}
     </div>
