@@ -5,6 +5,6 @@ title: Chapter 11
 tldr: "Data Storage"
 thumbnail: /static_files/lectures/memory.jpg
 links:
-    - url: /static_files/lectures/ch11.ppt
+    - url: /static_files/lectures/Ch11.ppt
       name: slide
 ---
